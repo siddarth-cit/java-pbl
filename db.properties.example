@@ -1,0 +1,14 @@
+# Database Configuration for Smart Digital Queue Management System
+# Supported types: sqlite (default), mysql
+
+# Default: SQLite (File-based, zero configuration, works instantly)
+db.type=sqlite
+sqlite.path=queue_system.db
+
+# Optional: MySQL Configuration (Uncomment and configure if using MySQL)
+# db.type=mysql
+# mysql.host=localhost
+# mysql.port=3306
+# mysql.database=queue_system
+# mysql.user=root
+# mysql.password=
